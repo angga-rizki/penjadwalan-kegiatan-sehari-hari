@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.puyopuyo.penjadwalankegiatansehari_hari.tampilan.MainActivity">
+    <item
+        android:id="@+id/action_hapus_hari"
+        android:orderInCategory="100"
+        android:title="@string/action_hapus_hari" />
+    <item
+        android:id="@+id/action_hapus_semua"
+        android:orderInCategory="101"
+        android:title="@string/action_hapus_semua" />
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="102"
+        android:title="@string/action_history" />
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="103"
+        android:title="@string/action_setting" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="104"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

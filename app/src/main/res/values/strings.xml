@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Penjadwalan Kegiatan Sehari-hari</string>
+    <string name="action_hapus_hari">Hapus jadwal hari ...</string>
+    <string name="action_hapus_semua">Hapus semua jadwal</string>
+    <string name="action_history">History</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_about">About</string>
+    <string name="action_hapus_jadwal">Hapus Jadwal</string>
+    <string name="action_hapus_history">Hapus history</string>
+
+    <string name="notification_title">Jadwal</string>
+    <string name="history_title">History</string>
+
+    <string name="history_kosong">Belum ada history</string>
+    <string name="jadwal_kosong">Klik tombol di bawah untuk menambahkan jadwal</string>
+
+    <string name="buat">Membuat jadwal\u0020</string>
+    <string name="hapus">Menghapus jadwal\u0020 </string>
+    <string name="edit">Mengedit jadwal\u0020</string>
+
+    //tambah_kegiatan xml
+    <string name="tambah_jadwal">Tambah Jadwal</string>
+    <string name="edit_jadwal">Edit Jadwal</string>
+    <string name="detail">Detail</string>
+    <string name="hari">Hari</string>
+    <string name="waktu">Waktu</string>
+    <string name="pengulangan">Pengulangan</string>
+    <string name="waktu_pengingat">Waktu Pengingat</string>
+    <string name="ulang_on">Ya</string>
+    <string name="ulang_off">Tidak</string>
+    <string name="jadwalHint">Nama Jadwal</string>
+
+    <string name="ingat_sesuai_jadwal">Diingatkan sesuai jadwal</string>
+    <string name="pengulangan_aktif">Pengulangan aktif</string>
+    <string name="pengulangan_mati">Pengulangan mati</string>
+
+    <string name="gagal_simpan">Gagal membuat jadwal</string>
+    <string name="berhasil_simpan">Jadwal dibuat</string>
+    <string name="gagal_update">Gagal mengupdate jadwal</string>
+    <string name="berhasil_update">Jadwal diupdate</string>
+    <string name="gagal_hapus">Gagal menghapus jadwal</string>
+    <string name="berhasil_hapus">Jadwal dihapus</string>
+    <string name="hapus_semua">Seluruh jadwal dihapus</string>
+    <string name="hapus_jadwal">Jadwal hari</string>
+    <string name="hapus_kosong">Tidak ada jadwal untuk dihapus!</string>
+    <string name="hapus_history">Semua history dihapus</string>
+    <string name="no_history">History kosong</string>
+
+    <string name="konfirmasi_hapus">Hapus jadwal ini?</string>
+    <string name="konfirmasi_hapus_pilih">Hapus jadwal hari</string>
+    <string name="konfirmasi_hapus_semua">Peringatan! Hapus seluruh jadwal?</string>
+
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="sesuai_jadwal">Sesuai Jadwal</string>
+
+    <string name="about1">Penjadwalan Kegiatan Sehari-hari \n\n\n Versi</string>
+    <string name="about2">\n\n\n Angga Rizki \u00a9 2018</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <string name="pemberitahuan">Jadwal akan tercatat dalam history setelah 24 jam jadwal dibuat atau setelah notifikasi jadwal muncul</string>
+</resources>

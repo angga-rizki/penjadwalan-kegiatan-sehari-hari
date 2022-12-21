@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="warna_entries">
+        <item>Mati</item>
+        <item>Putih</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Hijau</item>
+        <item>Cyan</item>
+        <item>Biru</item>
+        <item>Ungu</item>
+    </string-array>
+    <string-array name="warna_values">
+        <item>0</item>
+        <item>#FFFFFFFF</item>
+        <item>#FFFF0000</item>
+        <item>#FFFFFF00</item>
+        <item>#FF00FF00</item>
+        <item>#FF00FFFF</item>
+        <item>#FF0000FF</item>
+        <item>#FFFF00FF</item>
+    </string-array>
+
+    <string-array name="vibrate_entries">
+        <item>Mati</item>
+        <item>Default</item>
+        <item>Pendek</item>
+        <item>Panjang</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="notifikasi"
+        android:title="Notifikasi">
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="ringtone"
+            android:ringtoneType="all"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="Pilih suara notifikasi"
+            android:title="Ringtone" />
+        <ListPreference
+            android:defaultValue="#FFFF0000"
+            android:dialogTitle="Pilih Warna"
+            android:entries="@array/warna_entries"
+            android:entryValues="@array/warna_values"
+            android:key="led"
+            android:summary="Warna LED Notifikasi"
+            android:title="LED Notifikasi" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Getar"
+            android:entries="@array/vibrate_entries"
+            android:entryValues="@array/vibrate_values"
+            android:key="getar"
+            android:summary="Getar saat notifikasi"
+            android:title="Getar" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="interface"
+        android:title="Interface">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="animasi"
+            android:summary="Animasi teks berjalan"
+            android:title="Animasi" />
+    </PreferenceCategory>
+</PreferenceScreen>
